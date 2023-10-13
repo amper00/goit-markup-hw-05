@@ -168,6 +168,8 @@ body {
   letter-spacing: 0.03em;
 }
 .menu {
+  display: flex;
+  justify-content: center;
   color: var(--NAVY-BLUE, #2e2f42);
 
   font-family: Roboto;
@@ -177,11 +179,17 @@ body {
   line-height: 24px;
   /* 150% */
   letter-spacing: 0.32px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   gap: 40px;
 }
+.header_homework {
+  position: relative;
+  color: #404bbf;
+}
 
+.header_homework::after {
+  content: "";
+}
 .address {
   display: flex;
   justify-content: center;
@@ -488,6 +496,8 @@ img {
 }
 .flex__ {
   display: flex;
+
+  align-items: center;
   gap: 332px;
 }
 /*
@@ -502,8 +512,10 @@ img {
   margin-bottom: 8px;
 }
 .ban {
-  list-style: none;
   display: flex;
+  justify-content: center;
+  list-style: none;
+
   gap: 40px;
 }
 
