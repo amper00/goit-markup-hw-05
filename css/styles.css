@@ -122,11 +122,13 @@ body {
 }
 .link:hover {
   color: #404bbf;
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .link:focus {
   color: #404bbf;
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -168,7 +170,6 @@ body {
 .menu {
   color: var(--NAVY-BLUE, #2e2f42);
 
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
