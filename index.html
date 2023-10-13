@@ -60,7 +60,7 @@
         <div class="container flex">
           <h1 class="top">Effective Solutions for Your Business</h1>
 
-          <button class="linkk button" type="button" data-modal-open>
+          <button class="linkk button modal-btn" type="button" data-modal-open>
             Order Service
           </button>
           <div class="modal is-hidden" data-modal>
@@ -581,8 +581,11 @@
         </div>
       </div>
     </footer>
-    <div class="example-box" data-modal="true"></div>
-
+    <div class="modal is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>close</button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
