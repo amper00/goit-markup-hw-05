@@ -185,6 +185,7 @@ body {
 .header_homework {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_homework::after {
