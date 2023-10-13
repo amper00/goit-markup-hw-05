@@ -182,6 +182,15 @@ body {
   gap: 40px;
 }
 
+.header_homework {
+  position: relative;
+  color: #404bbf;
+}
+
+.header_homework::after {
+  content: "";
+  position: absolute;
+}
 .address {
   display: flex;
   justify-content: center;
