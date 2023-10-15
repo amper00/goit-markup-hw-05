@@ -22,6 +22,10 @@
   letter-spacing: 0.04em;
   color: var(--styl-colorr);
   background-color: var(--background-colorr);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -131,21 +135,18 @@ body {
 }
 
 .linkk:hover {
+  color: #ffffff;
   background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .linkk:focus {
+  color: #ffffff;
   background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.linkkk:hover {
-  color: #ffffff;
-}
-.linkkk:focus {
-  color: #ffffff;
-}
+
 .studio {
   color: var(--styll-color, #4d5ae5);
   font-family: "Raleway", sans-serif;
