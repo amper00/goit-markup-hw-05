@@ -771,9 +771,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.class_x:hover {
+.modal-close:hover {
   fill: #ffffff;
 }
-.class_x:focus {
+.modal-close:focus {
   fill: #ffffff;
 }
