@@ -564,6 +564,7 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding-top: 8px;
 
   gap: 24px;
 }
