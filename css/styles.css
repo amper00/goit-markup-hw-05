@@ -801,6 +801,6 @@ img {
   transform: translateY(0%);
 }
 
-.takietam:hover .portfolio_acapit {
+.takietam:focus .portfolio_acapit {
   transform: translateY(0%);
 }
