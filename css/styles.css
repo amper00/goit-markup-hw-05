@@ -83,7 +83,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -333,7 +333,6 @@ body {
   font-style: normal;
   font-weight: 400;
   width: 264px;
-  padding-top: 17.5px;
 }
 
 .last {
@@ -342,7 +341,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--styl-colorrr);
-  margin-bottom: 8px;
 }
 .lastt {
   line-height: 1.5;
@@ -797,10 +795,10 @@ img {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link:hover {
+.link:hover .portfolio_acapit {
   transform: translateY(0%);
 }
 
-.takietam:focus .portfolio_acapit {
+.link:focus .portfolio_acapit {
   transform: translateY(0%);
 }
