@@ -351,6 +351,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--styl-colorrr);
+  margin-bottom: 8px;
 }
 .lastt {
   line-height: 1.5;
